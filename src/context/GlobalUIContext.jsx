@@ -4,10 +4,10 @@ const GlobalUIContext = createContext(null);
 
 export function GlobalUIProvider({ children }) {
   const [activePanel, setActivePanel] = useState(null);
-  const [inquirySubject, setInquirySubject] = useState("General enquiry");
+  const [inquiry, setInquiry] = useState("General enquiry");
 
   const openInquiry = (subject = "General enquiry") => {
-    setInquirySubject(subject);
+    setInquiry(subject);
     setActivePanel("inquiry");
   };
 
@@ -18,7 +18,7 @@ export function GlobalUIProvider({ children }) {
     <GlobalUIContext.Provider
       value={{
         activePanel,
-        inquirySubject,
+        inquiry,
         openInquiry,
         openWishlist,
         closePanel,
