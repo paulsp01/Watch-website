@@ -31,7 +31,7 @@ const Finishing = () => {
   ];
 
   return (
-    <section className="border-y border-[#242324] bg-[#101011] px-4 py-14 sm:px-6 lg:px-8">
+    <section className="border-y border-[#242324] bg-[#101011] px-4 py-14 sm:px-6 lg:px-10 xl:px-20">
       <div className="mx-auto max-w-[1200px]">
 
         {/* TITLE */}

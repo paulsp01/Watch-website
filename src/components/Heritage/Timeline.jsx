@@ -51,7 +51,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="bg-[#101011] px-4 py-12 sm:px-6 lg:px-8">
+    <section className="bg-[#101011] px-4 py-12 sm:px-6 lg:px-10 xl:px-20">
       <div className="mx-auto max-w-[1200px]">
 
       

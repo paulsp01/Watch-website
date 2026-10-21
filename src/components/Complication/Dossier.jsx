@@ -2,7 +2,7 @@ import React from "react";
 
 const Dossier = () => {
   return (
-    <section className="border-t border-[#242324] bg-[#121213] px-5 py-16 lg:px-10 lg:py-24">
+    <section className="border-t border-[#242324] bg-[#121213] px-5 py-16 lg:px-10 lg:py-24 xl:px-20">
       <div className="mx-auto max-w-[1100px] rounded-lg border border-[#292725] bg-gradient-to-br from-[#1b1b1c] via-[#151516] to-[#24231f] px-6 py-12 text-center sm:px-10 lg:px-20 lg:py-16">
         <p className="text-xs tracking-[0.3em] text-[#9E824C] sm:text-sm">
           PRIVATE SALON ACCESS

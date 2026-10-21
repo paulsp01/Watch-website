@@ -5,11 +5,11 @@ import heroimg from "../../assets/Hero.png";
 
 const Hero = () => {
   return (
-    <section className="bg-[#101011] px-5 py-8 lg:px-8 lg:py-10">
-      <div className="mx-auto max-w-[1180px]">
+    <section className="bg-[#101011] px-5 py-8 lg:px-10 lg:py-10 xl:px-20">
+      <div className="mx-auto max-w-[1600px]">
         <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
 
-          {/* LEFT CONTENT */}
+    
           <div className="flex flex-col justify-center rounded-md border border-[#252526] bg-[#151516] p-6 sm:p-8 lg:p-10">
             <p className="text-xs tracking-[0.2em] text-[#9E824C] sm:text-sm sm:tracking-[0.3em]">
               MAISON ÉLYSÉE • HERITAGE

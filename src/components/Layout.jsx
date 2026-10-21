@@ -1,17 +1,19 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from './Header'
-import Footer from './Footer'
-
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
-    <div className='bg-[#161615] '>
-        <Header/>
-        <Outlet/>
-        <Footer/>
-    </div>
-  )
-}
+    <div className="min-h-screen w-full min-w-0 bg-[#161615]">
+      <Header />
 
-export default Layout
+      <div className="w-full min-w-0">
+        <Outlet />
+      </div>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Layout;

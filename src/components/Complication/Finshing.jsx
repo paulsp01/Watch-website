@@ -21,7 +21,7 @@ const Finshing = () => {
   ];
 
   return (
-    <section className="bg-[#101011] px-5 py-16 lg:px-10 lg:py-24">
+    <section className="bg-[#101011] px-5 py-16 lg:px-10 lg:py-24 xl:px-20">
       <div className="mx-auto grid max-w-[1500px] items-center gap-10 lg:grid-cols-2 lg:gap-12">
         {/* Inspection image */}
         <div className="rounded-lg border border-[#292725] bg-[#19191a] p-3">

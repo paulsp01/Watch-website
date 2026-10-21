@@ -36,7 +36,7 @@ const watches = [
 
 const Portfolio = () => {
   return (
-    <section className="border-t border-[#171718] bg-[#121213] px-5 py-14 lg:px-10 lg:py-20">
+    <section className="border-t border-[#171718] bg-[#121213] px-5 py-14 lg:px-10 lg:py-20 xl:px-20">
       <div className="mx-auto max-w-[1500px]">
         {/* Section heading */}
         <div className="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">

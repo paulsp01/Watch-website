@@ -10,7 +10,7 @@ const stats = [
 
 const Hero = () => {
   return (
-    <section className="mx-auto max-w-[1500px] px-5 py-12 lg:px-10 lg:py-16">
+    <section className="mx-auto max-w-[1600px] px-5 py-12 lg:px-10 xl:px-20 lg:py-16">
       {/* Small heading */}
       <div className="mb-5 flex items-center gap-2">
         <span className="h-1.5 w-1.5 rounded-full bg-[#d7ad38]" />

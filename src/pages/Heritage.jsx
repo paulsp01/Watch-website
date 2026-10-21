@@ -1,4 +1,3 @@
-import PageContainer from '../components/PageContainer.jsx'
 import Hero from '../components/Heritage/Hero'
 import Statssection from '../components/Heritage/Statssection'
 import Timeline from '../components/Heritage/Timeline'
@@ -9,7 +8,7 @@ import QuoteSection from '../components/Heritage/QuoteSection'
 
 const Heritage = () => {
   return (
-   <PageContainer className="min-h-screen bg-[#101011] text-[#d8d3cc]">
+   <>
       <Hero/>
       <Statssection />
 
@@ -23,7 +22,7 @@ const Heritage = () => {
 
       <QuoteSection />
 
-    </PageContainer>
+    </>
   )
 }
 

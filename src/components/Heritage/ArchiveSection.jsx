@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const ArchiveSection = () => {
   return (
-    <section className="bg-[#111112] px-4 py-12 sm:px-6 lg:px-8">
+    <section className="bg-[#111112] px-4 py-12 sm:px-6 lg:px-10 xl:px-20">
       <div className="mx-auto max-w-[1200px]">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
 

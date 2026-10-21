@@ -1,4 +1,3 @@
-import PageContainer from "../components/PageContainer.jsx";
 import HeroSection from "../components/Atelier/Hero";
 import HeritageSection from "../components/Atelier/Maison";
 import CollectionSection from "../components/Atelier/CollectionSection";
@@ -8,7 +7,7 @@ import PrivateAudienceSection from "../components/Atelier/PrivateAudienceSection
 
 const Atelier = () => {
   return (
-    <PageContainer className="overflow-hidden bg-[#0d0d0e] text-[#eee9df]">
+    <>
       <HeroSection />
 
       <HeritageSection />
@@ -20,7 +19,7 @@ const Atelier = () => {
       <TestimonialSection />
 
       <PrivateAudienceSection />
-    </PageContainer>
+    </>
   );
 };
 
